@@ -82,13 +82,15 @@ li{
 
 
 .hero-right {
+    display: flex;
     flex-direction: column;
     color:#F9FAF8
 }
 
-.credit {
-   justify-content: center;
+a {
+    flex-direction: column;
 }
+
 /** info card **/
 
 .info-card{
@@ -96,9 +98,6 @@ li{
     justify-content: center;
 }
 
-a{
-    flex-direction: column;
-}
 
 
 /*** Colors and font styles ***/
