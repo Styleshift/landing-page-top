@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/** header **/
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    width: 70%;
+    margin-bottom: 60px;
+}
+
+.header-logo{
+    margin: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+div.header-links{
+    justify-content: flex-end;
+}
+
+ul, a{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;  
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li{
+    margin: 10px;
+}
+
+/** hero **/
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 40%;
+}
+
+.hero-text {
+    font-size: 18px;
+    color:#E5E7EB;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 60px;
+}
+
+.header-button {
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.computer-image {
+    height: 300px;
+    width: 450px;
+}
+
+.hero-right {
+    flex-direction: column;
+    color:#F9FAF8
+}
+
+figcaption{
+    text-align: center;
+}
+
+/** info card **/
+
+.info-card{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*** Colors and font styles ***/
+
+/*** 
+
+dark background color (hero and footer) 
+#1F2937
+
+Hero Main text ("this website is awesome")
+48px extra-bold #F9FAF8
+
+Hero Secondary text, Header Link Text
+18px #E5E7EB 
+
+Header Logo Text
+24px #F9FAF8
+
+Button color, call to action background color
+#3882F6
+
+information header text
+36px extra-bold #1F2937
+
+Quote Section background COlor
+#E5E7EB
+
+Quote text
+36px light italic #1F2937
+
+***/
