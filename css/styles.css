@@ -95,13 +95,40 @@ a {
 
 .info-card{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
 }
 
 .info-card-header{
     margin: 40px;
+    align-items: center;
+    flex-direction: row;
 }
 
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.some-under-text {
+    text-align: center;
+}
+
+.box-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+}
 
 /*** Colors and font styles ***/
 
