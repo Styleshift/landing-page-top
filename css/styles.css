@@ -98,6 +98,9 @@ a {
     justify-content: center;
 }
 
+.info-card-header{
+    margin: 40px;
+}
 
 
 /*** Colors and font styles ***/
