@@ -52,7 +52,6 @@ li{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    width: 40%;
 }
 
 .hero-text {
@@ -81,20 +80,24 @@ li{
     width: 450px;
 }
 
+
 .hero-right {
     flex-direction: column;
     color:#F9FAF8
 }
 
-figcaption{
-    text-align: center;
+.credit {
+   justify-content: center;
 }
-
 /** info card **/
 
 .info-card{
     display: flex;
     justify-content: center;
+}
+
+a{
+    flex-direction: column;
 }
 
 
