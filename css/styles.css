@@ -112,11 +112,11 @@ a {
 .box{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100px;
     width: 100px;
     border: 2px solid #3882F6;
     border-radius: 8px;
-    padding-top: 20px;
 }
 
 .some-under-text {
