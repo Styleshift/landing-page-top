@@ -10,14 +10,14 @@
 
 /* Erase Me Later */
 
-header, nav, .headerLeft, .headerRight, section, footer {
+/* header, nav, .headerLeft, .headerRight, section, footer, .infoHeader, .blueBoxContainer {
     border: 2px solid black;
 }
 
 .headerLinks {
     border: 2px solid white;
 }
-
+ */
 /* Layout */ 
 
 header {
@@ -44,6 +44,14 @@ section {
 
 footer {
     height: 20vh;
+}
+
+.infoHeader {
+    height: 40%;
+}
+
+.blueBoxContainer {
+    height: 60%;
 }
 
 /* Flexbox */
@@ -79,6 +87,59 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.infoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueBoxContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxAndText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quoteCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotePerson {
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    font-size: 2rem;
 }
 
 /* Typography */
@@ -121,6 +182,56 @@ li {
     margin: 20px;
 }
 
+.infoHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.headerButton {
+    color: white;
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+}
+
+.boxText {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.inspiringQuote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotePerson {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.callH3 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.callP {
+    font-size: 2rem;
+}
+
+.callButton {
+    color: white;
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
 /* Content */
 
 nav {
@@ -130,6 +241,15 @@ nav {
 header {
     background-color: #1f2937;
 }
+
+.box {
+    border: 2px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
 
 .placeholderImage {
     height: 300px;
@@ -141,14 +261,19 @@ header {
     align-items: center;
 }
 
-
-.headerButton {
-    color: white;
-    background-color: #3882F6;
-    width: 150px;
-    height: 40px;
-    border-radius: 5%;
+.quoteCard {
+    background-color: #E5E7EB;
 }
+
+.callContainer {
+    background-color: #3882F6;
+    color: white;
+    width: 80%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+
 
 /*** Colors and font styles ***/
 
