@@ -6,5 +6,4 @@ https://styleshift.github.io/landing-page/
 
 Join @: https://discord.gg/TyPVe5BNnP
 
-
-![Screenshot 2023-05-17 at 20-51-01 Landing Page](https://github.com/Styleshift/landing-page/assets/42125735/2bdebaea-b1b3-46b1-a50c-d13c11b5bda7)
+![Screenshot 2023-05-17 at 21-15-47 Landing Page](https://github.com/Styleshift/landing-page/assets/42125735/cba21edf-3895-44b4-a34d-32a321607cf2)
