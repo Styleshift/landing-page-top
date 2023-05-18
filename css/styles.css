@@ -183,7 +183,7 @@ li {
 }
 
 .headerH1, .headerP, .headerButton {
-    margin: 20px;
+    margin: 15px;
 }
 
 .infoHeader {
@@ -296,6 +296,19 @@ header {
     .callContainer {
         height: 200px;
         width: 380px;
+    }
+
+    .placeholderImage {
+        height: 150px;
+        width: 180px;
+    }
+
+    .callButton {
+        width: 80px;
+    }
+
+    .headerP {
+        font-size: 12px;
     }
 }
 
