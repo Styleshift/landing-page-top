@@ -18,10 +18,15 @@
     border: 2px solid white;
 }
  */
+
+/* .randomInfo, .infoHeader, .blueBoxContainer {
+    border: 2px solid black;
+}
+ */
 /* Layout */ 
 
 header {
-    height: 100vh;
+    height: 100dvh;
 }
 
 .headerLeft {
@@ -35,15 +40,15 @@ header {
 }
 
 nav {
-    height: 10vh;
+    height: 10dvh;
 }
 
 section {
-    height: 100vh;
+    height: 100dvh;
 }
 
 footer {
-    height: 20vh;
+    height: 20dvh;
 }
 
 .infoHeader {
@@ -92,7 +97,7 @@ header {
 .infoHeader {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .blueBoxContainer {
@@ -116,7 +121,6 @@ header {
 }
 
 .quotePerson {
-    width: 800px;
     display: flex;
     justify-content: flex-end;
 }
@@ -158,24 +162,24 @@ li {
 
 
 .headerH1 {
-    font-size: 48px;
+    font-size: calc(1rem + 3vw);
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 .headerLogo {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: calc(.5rem + 1vw);
 }
 
 .headerLinks {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: calc(.5rem + 1vw);
 }
 
 .headerP {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: calc(.5rem + 1vw);
 }
 
 .headerH1, .headerP, .headerButton {
@@ -183,7 +187,7 @@ li {
 }
 
 .infoHeader {
-    font-size: 36px;
+    font-size: calc(1.5rem + 2vw);
     font-weight: bolder;
     color: #1f2937;
 }
@@ -199,28 +203,30 @@ li {
 }
 
 .boxText {
-    font-size: 2rem;
+    font-size: calc(.5rem + 1vw);
     text-align: center;
 }
 
-.inspiringQuote {
-    font-size: 36px;
+.thorQuote {
+    font-size: calc(1rem + 1vw);
     font-style: italic;
     font-weight: lighter;
 }
 
 .quotePerson {
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: calc(.5rem + 1vw);
 }
 
+
+
 .callH3 {
-    font-size: 3rem;
+    font-size: calc(1rem + 1vw);
     font-weight: bolder;
 }
 
 .callP {
-    font-size: 2rem;
+    font-size: calc(.5rem + 1vw);
 }
 
 .callButton {
@@ -232,6 +238,10 @@ li {
     border: 2px solid white;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
 /* Content */
 
 nav {
@@ -244,16 +254,16 @@ header {
 
 .box {
     border: 2px solid #3882F6;
-    height: 200px;
-    width: 200px;
+    height: 20vh;
+    width: 15vw;
     margin: 10px;
     border-radius: 12px;
 }
 
 
 .placeholderImage {
-    height: 300px;
-    width: 700px;
+    height: 30%;
+    width: 70%;
     background-color: #6c747d;
     color: white;
     display: flex;
@@ -273,7 +283,21 @@ header {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 500px) {
+    .box {
+        height: 60px;
+        width: 80px;
+    }
 
+    .blueBoxContainer {
+        align-items: flex-start;
+    }
+
+    .callContainer {
+        height: 200px;
+        width: 380px;
+    }
+}
 
 /*** Colors and font styles ***/
 
