@@ -1,6 +1,6 @@
 # Landing Page Project
 
-https://styleshift.github.io/landing-page/
+https://webdevkeenan.github.io/landing-page/
 
 ### This is a responsive landing page layout that I made thanks to the Odin Project and my friends at my coding study group: Mimir's Circle. 
 
